@@ -1,0 +1,13 @@
+name: Check Portfolio Site
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  check-site:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check site is live
+        run: curl -f https://jiaying425.github.io/my-portfolio/ || exit 1
