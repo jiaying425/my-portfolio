@@ -143,7 +143,37 @@ https://jiaying425.github.io/my-portfolio/
 - [x] #23 Learn git revert and git reset
 - [x] #24 Make portfolio responsive for mobile
 
+---
+
+## Session 6 — April 4, 2026
+
+### What I completed
+| # | Concept | Tool |
+|---|---|---|
+| 1 | Branch protection rules | GitHub Settings → Branches |
+| 2 | Require PR before merging | Branch protection UI |
+| 3 | Bypass rules as solo dev | Uncheck "Require approvals" |
+| 4 | Add profile image | HTML `<img>` tag |
+| 5 | Create images folder | `mkdir images` |
+| 6 | Move file in Terminal | `mv source destination` |
+| 7 | Handle filenames with spaces | Wrap in quotes or rename first |
+| 8 | Style circular image | `border-radius: 50%` in CSS |
+| 9 | Stage image file | `git add images/profile.jpg` |
+
+### Key lessons
+- Branch protection blocks direct pushes to main — everything goes through a PR
+- Approval requirement is optional for solo projects — keep the PR requirement, drop approvals
+- `git add` remembers staged files until commit — like a shopping basket
+- Filenames with spaces or apostrophes break Terminal — always rename before moving
+- `mv` moves files, `cp` copies files
+- `border-radius: 50%` makes any square image a circle
+- `object-fit: cover` ensures image fills the circle without distortion
+
+### Issues completed
+- [x] #26 Set up branch protection rules
+- [x] #27 Add profile image
+
 ### Next session
-- [ ] Branch protection rules
-- [ ] Add a profile image
 - [ ] GitHub Projects (Kanban board)
+- [ ] CSS hover effects and animations
+- [ ] CSS variables
