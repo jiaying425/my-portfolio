@@ -119,3 +119,42 @@ nav a:hover {
   display: block;
   margin-bottom: 24px;
 }
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Profile image hover */
+.profile-img {
+  transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+}
+
+/* Nav link hover */
+nav a {
+  transition: color 0.2s ease;
+}
+
+/* Project item hover */
+li {
+  padding: 16px;
+  border-radius: 8px;
+  transition: background 0.2s ease;
+}
+
+li:hover {
+  background: #f8f8f8;
+}
+
+/* Page fade in */
+body {
+  animation: fadeIn 0.6s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
