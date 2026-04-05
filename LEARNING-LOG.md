@@ -173,7 +173,36 @@ https://jiaying425.github.io/my-portfolio/
 - [x] #26 Set up branch protection rules
 - [x] #27 Add profile image
 
+---
+
+## Session 7 — April 5, 2026
+
+### What I completed
+| # | Concept | Tool |
+|---|---|---|
+| 1 | GitHub Projects Kanban board | GitHub UI → Projects tab |
+| 2 | Create board columns | To Do, In Progress, Done |
+| 3 | Link issues to board | Add item → `#` to reference issues |
+| 4 | Drag cards across columns | Visual progress tracking |
+| 5 | Smooth scroll | `scroll-behavior: smooth` |
+| 6 | CSS transitions | `transition: property duration ease` |
+| 7 | Hover scale effect | `transform: scale(1.05)` |
+| 8 | Background hover | `li:hover { background: #f8f8f8 }` |
+| 9 | Page fade in animation | `@keyframes fadeIn` |
+
+### Key lessons
+- GitHub Projects is a Kanban board linked to your issues — real teams use this daily
+- Drag issues across columns to track progress visually
+- `transition` makes CSS changes animate smoothly instead of jumping
+- `transform: scale()` grows or shrinks an element on hover
+- `@keyframes` defines a reusable animation sequence
+- `scroll-behavior: smooth` requires no JavaScript — pure CSS
+
+### Issues completed
+- [x] #29 Set up GitHub Projects Kanban board
+- [x] #30 Add CSS hover effects and animations
+
 ### Next session
-- [ ] GitHub Projects (Kanban board)
-- [ ] CSS hover effects and animations
-- [ ] CSS variables
+- [ ] Collaborative workflow — fork and PR review
+- [ ] Multi-page site (separate about.html)
+- [ ] CSS variables for consistent theming
