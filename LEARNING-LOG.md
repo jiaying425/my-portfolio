@@ -113,7 +113,37 @@ https://jiaying425.github.io/my-portfolio/
 - [x] #20 Learn git log, git diff, git stash
 - [x] #21 Add navigation bar
 
+---
+
+## Session 5 — April 4, 2026
+
+### What I completed
+| # | Concept | Command |
+|---|---|---|
+| 1 | Undo a pushed commit safely | `git revert <SHA>` |
+| 2 | Revert the most recent commit | `git revert HEAD` |
+| 3 | Accept revert commit message | `Esc` → `:wq` → `Enter` in vim |
+| 4 | Abort a failed revert | `git revert --abort` |
+| 5 | Unstage last commit | `git reset HEAD~1` |
+| 6 | Discard unstaged changes | `git restore <file>` |
+| 7 | Add viewport meta tag | `<meta name="viewport" ...>` |
+| 8 | Add media queries | `@media (max-width: 600px)` |
+| 9 | Test mobile in Chrome | DevTools → phone icon |
+
+### Key lessons
+- `git revert` is safe for pushed commits — adds a new undo commit, never deletes history
+- `git reset` removes commits from history — only use before pushing
+- Reverting old commits causes merge conflicts — always revert recent commits
+- `git revert --abort` cancels a failed revert cleanly
+- `git reset HEAD~1` unstages the last commit but keeps file changes
+- Viewport meta tag is required for mobile — without it, phones zoom out
+- `@media` queries apply CSS only below a certain screen width
+
+### Issues completed
+- [x] #23 Learn git revert and git reset
+- [x] #24 Make portfolio responsive for mobile
+
 ### Next session
-- [ ] Responsive design (mobile-friendly CSS)
+- [ ] Branch protection rules
 - [ ] Add a profile image
-- [ ] git revert and git reset
+- [ ] GitHub Projects (Kanban board)
