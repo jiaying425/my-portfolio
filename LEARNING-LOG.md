@@ -234,7 +234,31 @@ https://jiaying425.github.io/my-portfolio/
 ### Issues completed
 - [x] #39 Session 8: Learn collaborative workflow (fork, PR review)
 
+---
+
+## Session 9 — April 12, 2026
+
+### What I completed
+| # | Concept | Command |
+|---|---|---|
+| 1 | Create annotated tag | `git tag -a v1.0 -m "First portfolio release"` |
+| 2 | List all tags | `git tag` |
+| 3 | Push tag to GitHub | `git push origin v1.0` |
+| 4 | Push all tags at once | `git push origin --tags` |
+| 5 | View tag details | `git show v1.0` |
+| 6 | Create GitHub Release | GitHub UI → Releases → New release |
+
+### Key lessons
+- Tags are fixed bookmarks on a specific commit — they never move
+- Branches move forward with new commits — tags don't
+- Lightweight tags are quick bookmarks; annotated tags store author, date, and message
+- Annotated tags are the standard for production releases
+- `git push` does NOT push tags by default — you must push them explicitly
+- GitHub Releases add a download page with release notes on top of a tag
+
+### Issues completed
+- [x] #40 Session 9: Learn Git tags and releases
+
 ### Next session
-- [ ] Git tags and releases
 - [ ] Lighthouse auditing
 - [ ] Final portfolio polish
