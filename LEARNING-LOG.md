@@ -259,6 +259,44 @@ https://jiaying425.github.io/my-portfolio/
 ### Issues completed
 - [x] #40 Session 9: Learn Git tags and releases
 
-### Next session
-- [ ] Lighthouse auditing
-- [ ] Final portfolio polish
+---
+
+## Session 10 — April 12, 2026
+
+### What I completed
+| # | Concept | Tool |
+|---|---|---|
+| 1 | Run Lighthouse audit | Chrome DevTools → Lighthouse tab |
+| 2 | Understand Performance score | Measures load speed, image optimization |
+| 3 | Understand Accessibility score | Checks alt text, color contrast, semantic HTML |
+| 4 | Understand Best Practices score | HTTPS, no console errors, web standards |
+| 5 | Understand SEO score | Meta description, title tag, mobile-friendly |
+
+### Key lessons
+- Lighthouse is a built-in Chrome tool that scores sites on 4 categories (0–100)
+- Green (90+) is the goal for all categories
+- Lighthouse tells you exactly what to fix and why — standard check before shipping
+- Keep Chrome in the foreground during the audit or it fails (NO_FCP error)
+- Alternative: use https://pagespeed.web.dev for online Lighthouse audits
+- TODO: Run full Lighthouse audit on Windows and fix any issues found
+
+### Issues completed
+- [x] #41 Session 10: Lighthouse audit and final portfolio polish
+
+---
+
+## Course Complete!
+
+### Skills mastered
+- **Git fundamentals**: clone, branch, add, commit, push, pull, merge
+- **Collaboration**: fork, upstream remotes, PR review, code comments
+- **History & undo**: log, diff, stash, revert, reset, restore
+- **Releases**: tags (lightweight & annotated), GitHub Releases
+- **GitHub features**: Issues, PRs, Actions CI, Projects Kanban, branch protection, Pages
+- **Web development**: HTML, CSS, responsive design, animations, navigation
+- **Tools**: VS Code, Terminal (Mac & Windows), Chrome DevTools
+
+### Portfolio
+- **Live site**: https://jiaying425.github.io/my-portfolio/
+- **Repository**: https://github.com/jiaying425/my-portfolio
+- **Release**: v1.0
