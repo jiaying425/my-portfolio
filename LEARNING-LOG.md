@@ -202,7 +202,39 @@ https://jiaying425.github.io/my-portfolio/
 - [x] #29 Set up GitHub Projects Kanban board
 - [x] #30 Add CSS hover effects and animations
 
+---
+
+## Session 8 — April 12, 2026
+
+### What I completed
+| # | Concept | Command |
+|---|---|---|
+| 1 | Fork a repo | GitHub UI → Fork button |
+| 2 | Clone your fork | `git clone https://github.com/jiaying425/Hello-World.git` |
+| 3 | Add upstream remote | `git remote add upstream <original-repo-url>` |
+| 4 | View all remotes | `git remote -v` |
+| 5 | View all branches | `git branch -a` |
+| 6 | Create branch on fork | `git checkout -b add-greeting` |
+| 7 | Push to fork | `git push origin add-greeting` |
+| 8 | Open PR to original repo | GitHub UI → PR from fork to upstream |
+| 9 | Leave code review comment | Files changed → click blue + icon |
+| 10 | Sync fork with upstream | `git pull upstream master` |
+| 11 | Push sync to fork | `git push origin master` |
+
+### Key lessons
+- Fork when you don't have write access to a repo — branch when you do
+- `origin` = your fork, `upstream` = the original repo
+- A remote is just a saved URL nickname — like a contact in your phone
+- `git remote -v` shows fetch and push URLs (usually identical)
+- Older repos use `master`, newer repos use `main` — just a naming convention
+- Fork sync cycle: `git pull upstream master` → `git push origin master`
+- `-a` flag on `git branch` shows all branches (local + remote)
+- PR review comments attach to specific lines of code — this is how teams give feedback
+
+### Issues completed
+- [x] #39 Session 8: Learn collaborative workflow (fork, PR review)
+
 ### Next session
-- [ ] Collaborative workflow — fork and PR review
-- [ ] Multi-page site (separate about.html)
-- [ ] CSS variables for consistent theming
+- [ ] Git tags and releases
+- [ ] Lighthouse auditing
+- [ ] Final portfolio polish
