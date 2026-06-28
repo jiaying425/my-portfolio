@@ -12,7 +12,7 @@ Currently focused on bridging product strategy and applied AI engineering.
 - [LLM Wiki](link) — first-principles LLM notes, Karpathy methodology
 
 ## 🛠 Stack
-Claude, OpenAI · Databricks · Prompt Engineering
+Claude Code, Claude Design, VS Code, Skills , Databricks , Prompt Engineering
 
 ## 📫 Let's Connect
 LinkedIn · GitHub: [@jiaying425](https://github.com/jiaying425)
